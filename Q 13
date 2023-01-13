@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter three digit number:");
+    scanf("%d",&a);
+    a=a%10*100+a/10;
+    printf("rotating it towards right %d",a);
+    return 0;
+}
